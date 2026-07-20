@@ -1,0 +1,22 @@
+# Dataset (download separately via Kaggle API — see README)
+data/
+*.zip
+
+# Kaggle credentials — NEVER commit this
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (host externally if large)
+*.h5
+*.keras
+
+# OS files
+.DS_Store
